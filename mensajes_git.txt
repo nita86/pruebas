@@ -1,0 +1,142 @@
+Microsoft Windows [Versión 10.0.17134.472]
+(c) 2018 Microsoft Corporation. Todos los derechos reservados.
+
+C:\Users\Mañanas.GET23-03>cd Documents
+
+C:\Users\Mañanas.GET23-03\Documents>cd IFCD0110_ANA_RODRIGUEZ
+
+C:\Users\Mañanas.GET23-03\Documents\IFCD0110_ANA_RODRIGUEZ>git status
+On branch master
+
+No commits yet
+
+Changes to be committed:
+  (use "git rm --cached <file>..." to unstage)
+
+        new file:   IFCD0110.pdf
+        new file:   IFCD0110_ficha.pdf
+        new file:   MF0950_1_Construccion_web/UF1302_lenguaje_de_marcas/practicas/formato.html
+        new file:   MF0950_1_Construccion_web/UF1302_lenguaje_de_marcas/practicas/img/img_chrome.png
+        new file:   MF0950_1_Construccion_web/UF1302_lenguaje_de_marcas/practicas/index _html.html
+        new file:   MF0950_1_Construccion_web/UF1302_lenguaje_de_marcas/practicas/introduccion.html
+
+
+C:\Users\Mañanas.GET23-03\Documents\IFCD0110_ANA_RODRIGUEZ>git commit -m 9enero antes desayuno
+error: pathspec 'antes' did not match any file(s) known to git
+error: pathspec 'desayuno' did not match any file(s) known to git
+
+C:\Users\Mañanas.GET23-03\Documents\IFCD0110_ANA_RODRIGUEZ>git commit -m .html
+[master (root-commit) aea9efd] .html
+ 6 files changed, 676 insertions(+)
+ create mode 100644 IFCD0110.pdf
+ create mode 100644 IFCD0110_ficha.pdf
+ create mode 100644 MF0950_1_Construccion_web/UF1302_lenguaje_de_marcas/practicas/formato.html
+ create mode 100644 MF0950_1_Construccion_web/UF1302_lenguaje_de_marcas/practicas/img/img_chrome.png
+ create mode 100644 MF0950_1_Construccion_web/UF1302_lenguaje_de_marcas/practicas/index _html.html
+ create mode 100644 MF0950_1_Construccion_web/UF1302_lenguaje_de_marcas/practicas/introduccion.html
+
+C:\Users\Mañanas.GET23-03\Documents\IFCD0110_ANA_RODRIGUEZ>git status
+On branch master
+nothing to commit, working tree clean
+
+C:\Users\Mañanas.GET23-03\Documents\IFCD0110_ANA_RODRIGUEZ>git log
+commit aea9efd36ba98a528636f65c674058ab74842fb5 (HEAD -> master)
+Author: nita86 <ana.rodriguezalv@gmail.com>
+Date:   Wed Jan 9 09:40:27 2019 +0100
+
+    .html
+
+C:\Users\Mañanas.GET23-03\Documents\IFCD0110_ANA_RODRIGUEZ>git push origin master
+fatal: 'origin' does not appear to be a git repository
+fatal: Could not read from remote repository.
+
+Please make sure you have the correct access rights
+and the repository exists.
+
+C:\Users\Mañanas.GET23-03\Documents\IFCD0110_ANA_RODRIGUEZ>git remote add origin https://github.com/nita86/IFCD0110_ANA_RODRIGUEZ
+
+C:\Users\Mañanas.GET23-03\Documents\IFCD0110_ANA_RODRIGUEZ>git status
+On branch master
+nothing to commit, working tree clean
+
+C:\Users\Mañanas.GET23-03\Documents\IFCD0110_ANA_RODRIGUEZ>git push
+fatal: The current branch master has no upstream branch.
+To push the current branch and set the remote as upstream, use
+
+    git push --set-upstream origin master
+
+
+C:\Users\Mañanas.GET23-03\Documents\IFCD0110_ANA_RODRIGUEZ>git push --set-upstream origin master
+To https://github.com/nita86/IFCD0110_ANA_RODRIGUEZ
+ ! [rejected]        master -> master (fetch first)
+error: failed to push some refs to 'https://github.com/nita86/IFCD0110_ANA_RODRIGUEZ'
+hint: Updates were rejected because the remote contains work that you do
+hint: not have locally. This is usually caused by another repository pushing
+hint: to the same ref. You may want to first integrate the remote changes
+hint: (e.g., 'git pull ...') before pushing again.
+hint: See the 'Note about fast-forwards' in 'git push --help' for details.
+
+C:\Users\Mañanas.GET23-03\Documents\IFCD0110_ANA_RODRIGUEZ>git feth
+git: 'feth' is not a git command. See 'git --help'.
+
+The most similar command is
+        fetch
+
+C:\Users\Mañanas.GET23-03\Documents\IFCD0110_ANA_RODRIGUEZ>git fetch
+warning: no common commits
+remote: Enumerating objects: 13, done.
+remote: Counting objects: 100% (13/13), done.
+remote: Compressing objects: 100% (13/13), done.
+remote: Total 13 (delta 3), reused 0 (delta 0), pack-reused 0
+Unpacking objects: 100% (13/13), done.
+From https://github.com/nita86/IFCD0110_ANA_RODRIGUEZ
+ * [new branch]      master     -> origin/master
+
+C:\Users\Mañanas.GET23-03\Documents\IFCD0110_ANA_RODRIGUEZ>git status
+On branch master
+nothing to commit, working tree clean
+
+C:\Users\Mañanas.GET23-03\Documents\IFCD0110_ANA_RODRIGUEZ>git pull
+There is no tracking information for the current branch.
+Please specify which branch you want to merge with.
+See git-pull(1) for details.
+
+    git pull <remote> <branch>
+
+If you wish to set tracking information for this branch you can do so with:
+
+    git branch --set-upstream-to=origin/<branch> master
+
+
+C:\Users\Mañanas.GET23-03\Documents\IFCD0110_ANA_RODRIGUEZ>git-pull(1)
+"git-pull" no se reconoce como un comando interno o externo,
+programa o archivo por lotes ejecutable.
+
+C:\Users\Mañanas.GET23-03\Documents\IFCD0110_ANA_RODRIGUEZ>git -pull
+unknown option: -pull
+usage: git [--version] [--help] [-C <path>] [-c <name>=<value>]
+           [--exec-path[=<path>]] [--html-path] [--man-path] [--info-path]
+           [-p | --paginate | -P | --no-pager] [--no-replace-objects] [--bare]
+           [--git-dir=<path>] [--work-tree=<path>] [--namespace=<name>]
+           <command> [<args>]
+
+C:\Users\Mañanas.GET23-03\Documents\IFCD0110_ANA_RODRIGUEZ>git add .
+
+C:\Users\Mañanas.GET23-03\Documents\IFCD0110_ANA_RODRIGUEZ>
+C:\Users\Mañanas.GET23-03\Documents\IFCD0110_ANA_RODRIGUEZ>git push origin master
+To https://github.com/nita86/IFCD0110_ANA_RODRIGUEZ
+ ! [rejected]        master -> master (non-fast-forward)
+error: failed to push some refs to 'https://github.com/nita86/IFCD0110_ANA_RODRIGUEZ'
+hint: Updates were rejected because the tip of your current branch is behind
+hint: its remote counterpart. Integrate the remote changes (e.g.
+hint: 'git pull ...') before pushing again.
+hint: See the 'Note about fast-forwards' in 'git push --help' for details.
+
+C:\Users\Mañanas.GET23-03\Documents\IFCD0110_ANA_RODRIGUEZ>git pull origin master
+From https://github.com/nita86/IFCD0110_ANA_RODRIGUEZ
+ * branch            master     -> FETCH_HEAD
+fatal: refusing to merge unrelated histories
+
+C:\Users\Mañanas.GET23-03\Documents\IFCD0110_ANA_RODRIGUEZ>
+
+NOS DESCONECTAMOS DE LA RED PARA INSTALAR DREAMWEAVER
