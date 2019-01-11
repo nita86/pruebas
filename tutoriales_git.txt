@@ -1,0 +1,4 @@
+esto es un txt 2
+
+http://rogerdudler.github.io/git-guide/index.es.html
+https://www.hostinger.es/tutoriales/comandos-de-git#gref
